@@ -3,31 +3,144 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>こに</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap">
-  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
   <header class="header">
-    <p class="site-title-sub">KONI's portfolio</p>
-    <h1 class="site-title">HEY GUYS! We have a gift for you</h1>
+    <p class="site-title-sub">KONI's portfolio web site</p>
+    <h1 class="site-title">HEY GUYS!<br>We have a gift for you</h1>
     <p class="site-description">We just need you to answer a few questions first, then you’ll earn a nice reward.</p>
     <div class="buttons">
-      <a class="button" href="#about">LEARN MORE</a>
-      <a class="button buttom-showy" href="#contact">SEND MESSAGE</a>
+      <a class="button" href="#about">ABOUT ME</a>
+      <a class="button button-showy" href="#contact">SEND MESSAGE</a>
     </div>
   </header>
   <section class="about" id="about">
+    <h2 class="heading">ABOUT ME</h2>
+    <p class="about-text">オーストラリア旅行でキャリーバックがなくなり</p>
+    <p class="about-text">カンボジア旅行(1回目)で麻薬探知犬に吠えられ</p>
+    <p class="about-text">カンボジア旅行(2回目)で食中毒にかかり</p>
+    <p class="about-text">エジプト旅行で空港内をたらい回しにされた</p>
+    <p class="about-text">新人社会人</p>
   </section>
   <section class="works">
+    <h2 class="heading">MEMORIES</h2>
+    <div class="works-wrapper">
+      <div class="work-box australia">
+        <img class="work-image" src="images/m-au.jpeg" alt="制作事例1">
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              初海外旅行のオーストラリア<br>
+              有名な海はさることながら<br>
+              大量の野生ペリカンに感激<br>
+              ゴールドコーストへお越しの際はぜひ御覧ください
+              <a href="#" class="button button-ghost">READ MORE</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-box italy">
+        <img class="work-image" src="images/m-it.jpeg" alt="制作事例1">
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              イタリア ミラノのドゥオモ<br>
+              イタリアは至るところにドゥオモがあるが<br>
+              一つ一つ形が違っていて面白い<br>
+              旅行一箇所目がここだったこともあり特に感動した建物
+              <a href="#" class="button button-ghost">READ MORE</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-box greece">
+        <img class="work-image" src="images/m-gr.jpeg" alt="制作事例1">
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              言わずとしれたギリシャのパルテノン神殿<br>
+              想像以上に工事中感満載<br>
+              朝一で行ったこともあり世界的名所をガラガラが状態<br>
+              工事感があってもやはり感動する
+              <a href="#" class="button button-ghost">READ MORE</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-box egypt">
+        <img class="work-image" src="images/m-eg.jpeg" alt="制作事例1">
+        <div class="work-description">
+          <div class="work-description-inner">
+            <p class="work-text">
+              知らない人はいない　エジプトのピラミッド<br>
+              小学生みたいな感想だがとにかくデカイ<br>
+              想像していたよりカイロ市内は治安が悪く<br>
+              エジプト人の押しの強さに翻弄されつつも<br>
+              なんやかんやで楽しかった<br>
+              (もう一回行きたくはない)
+              <a href="#" class="button button-ghost">READ MORE</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
   <section class="skills">
+    <h2 class="heading">MY SKILLS</h2>
+    <div class="skills-wrapper">
+      <div class="skill-box">
+        <i class="skill-icon fa fa-lightbulb-o"></i>
+        <div class="skill-title">学習中</div>
+        <p class="skill-text">
+          WEB系言語を中心に学習中<br>
+          HTML / CSS / JavaScript<br>
+          の基礎はある程度理解した。<br>
+          これからはいくつかページを作って<br>
+          実践練習の予定
+        </p>
+      </div>
+      <div class="skill-box">
+        <i class="skill-icon fa fa-paint-brush"></i>
+        <div class="skill-title">保有資格</div>
+        <p class="skill-text">
+          世界遺産検定2級<br>
+          珠算検定準初段<br>
+          暗算検定初段<br>
+          普通自動車免許
+        </p>
+      </div>
+      <div class="skill-box">
+        <i class="skill-icon fa fa-coffee"></i>
+        <div class="skill-title">趣味</div>
+        <p class="skill-text">
+          旅行<br>
+          マラソン<br>
+          &lt;new&gt;プログラミング<br>
+          &lt;new&gt;ダイビング<br>
+          etc...
+        </p>
+      </div>
+    </div>
   </section>
   <section class="contact" id="contact">
+    <h2 class="heading">CONTACT</h2>
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="NAME">
+      <textarea name="message" placeholder="MESSAGE"></textarea>
+      <input type="submit" value="SEND">
+    </form>
   </section>
   <footer class="footer">
+    ©  koni
   </footer>
+  <script src="lib/placeholders.min.js"></script>
 </body>
+
 </html>
